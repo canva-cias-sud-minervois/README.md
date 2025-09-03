@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation de Chargement Style Canva</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+        
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: linear-gradient(135deg, #7c3aed, #3b82f6);
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+        
+        .loader-container {
+            position: relative;
+            width: 200px;
+            height: 200px;
+        }
+        
+        .loader-shape {
+            position: absolute;
+            border-radius: 50%;
+            transform-origin: center;
+        }
+        
+        .circle-1 {
+            width: 120px;
+            height: 120px;
+            background-color: rgba(255, 255, 255, 0.2);
+            animation: pulse 2s infinite alternate;
+            top: 40px;
+            left: 40px;
+        }
+        
+        .circle-2 {
+            width: 80px;
+            height: 80px;
+            border: 4px solid #ffffff;
+            top: 60px;
+            left: 60px;
+            animation: rotate 3s infinite linear;
+        }
+        
+
+        .square {
+            width: 30px;
+            height: 30px;
+            transform: scale(1.9);
+            top: 85px;
+            left: 85px;
+            animation: scale 2s infinite alternate;
+        }
+        
+        .text-container {
+            position: absolute;
+            bottom: -60px;
+            width: 100%;
+            text-align: center;
+        }
+        
+        .loading-text {
+            color: white;
+            font-weight: 600;
+            letter-spacing: 2px;
+            animation: fadeInOut 1.5s infinite alternate;
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(0.8); opacity: 0.5; }
+            100% { transform: scale(1.1); opacity: 0.8; }
+        }
+        
+        @keyframes rotate {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        @keyframes bounce {
+            0% { transform: translateY(-10px); }
+            100% { transform: translateY(10px); }
+        }
+        
+        @keyframes fadeInOut {
+            0% { opacity: 0.4; }
+            100% { opacity: 1; }
+        }
+        
+        .content {
+            background: linear-gradient(135deg, #7c3aed, #3b82f6);
+            display: none;
+            text-align: center;
+            color: white;
+            max-width: 600px;
+            padding: 2rem;
+        }
+        
+        .fade-in {
+            animation: fadeIn 1s forwards;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .fondu-out {
+            opacity: 0;
+            transition: opacity 0.5s ease-out;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="loader" class="loader-container">
+        <div class="loader-shape circle-1"></div>
+        <div class="loader-shape circle-2"></div>
+        <div class="loader-shape square"> <img src="https://christbissai.com/assets/img/L2.png" alt=""></div>
+        <div class="text-container">
+            <div class="loading-text">CHARGEMENT...</div>
+        </div>
+    </div>
+    
+    <div id="content" class="content">
+        <div id="commencer">
+            <h1 class="text-4xl font-bold mb-6">Bienvenue sur votre site</h1>
+            <p class="text-xl mb-8">Votre contenu est maintenant chargé et prêt à être exploré.</p>
+            <button class="bg-white text-purple-700 font-bold py-3 px-6 rounded-full hover:bg-gray-100 transition-all" 
+                    onclick="document.getElementById('commencer').style.display = 'none'"> 
+                Commencer
+            </button>
+        </div>
+    </div>
+
+    <script>
+        // Simuler un temps de chargement
+        window.addEventListener('load', function() {
+            setTimeout(function() {
+                document.getElementById('loader').style.display = 'none';
+                const content = document.getElementById('content');
+                content.style.display = 'block';
+                content.classList.add('fade-in');
+            }, 3000); // Affiche l'animation pendant 3 secondes
+        });
+
+        function fadeOutAndRedirect() {
+            const content = document.getElementById('content');
+            content.classList.add('fondu-out');
+            setTimeout(() => {
+                window.location.href = 'votre-page-destination.html';
+            }, 500);
+        }
+    </script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'952214a202506f3c',t:'MTc1MDMyNjE5MC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
