@@ -11,7 +11,7 @@ Lien du site :
 
 ---
 
-Ce projet a pour objectif d’apprendre les bases de Canva à des débutants totaux, grâce à :
+Ce projet a pour objectif d’apprendre les bases de Canva à des débutants, grâce à :
 
 - Une **diapositive pédagogique** créée sur Canva qui présente les fonctionnalités de base et l’interface.
 - Deux **maquettes Canva** illustrant la conception du site web avec Claude AI (Anthropic).
@@ -34,7 +34,14 @@ Ces maquettes ont servi de base pour la réalisation du site, structuré et réd
 La diapositive présente les notions essentielles : emplacement des boutons, couleurs, formes, images, et les fonctionnalités de base de Canva. Elle a été conçue manuellement sur Canva.
 
 Lien vers la diapositive :  
+
+- Introduction
+  
 [https://www.canva.com/design/DAGxcYKkD5Y/64Op1aNriUem8rRPed0Umg/edit?utm_content=DAGxcYKkD5Y&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](https://www.canva.com/design/DAGxcYKkD5Y/64Op1aNriUem8rRPed0Umg/edit?utm_content=DAGxcYKkD5Y&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+- Exercices
+  
+https://www.canva.com/design/DAGq6PfLhRM/dJ53kLuvW_2MJJY5DckHhQ/edit?utm_content=DAGq6PfLhRM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 ---
 
