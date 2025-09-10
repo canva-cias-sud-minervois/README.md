@@ -5,9 +5,9 @@
 Le site web est hébergé gratuitement via GitHub Pages et s’adresse aux débutants souhaitant apprendre à utiliser les animations dans Canva.
 
 Lien du site :  
-[https://canva-cias-sud-minervois.github.io/animations/canva](https://canva-cias-sud-minervois.github.io/animations/canva)
+[https://canva-cias-sud-minervois.github.io/animations/canva](https://canva-cias-sud-minervois.github.io/README.md/canva)
 
-[![Hosted on GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-actif-0e76a8?logo=githubpages&style=flat-square)](https://canva-cias-sud-minervois.github.io/animations/canva)
+[![Hosted on GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-actif-0e76a8?logo=githubpages&style=flat-square)](https://canva-cias-sud-minervois.github.io/README.md/canva)
 
 ---
 
