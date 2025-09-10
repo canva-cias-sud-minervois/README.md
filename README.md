@@ -36,8 +36,9 @@ La diapositive présente les notions essentielles : emplacement des boutons, cou
 Lien vers la diapositive :  
 
 - Introduction
-  
-[https://www.canva.com/design/DAGxcYKkD5Y/64Op1aNriUem8rRPed0Umg/edit](https://www.canva.com/design/DAGxcYKkD5Y/64Op1aNriUem8rRPed0Umg/edit?utm_content=DAGxcYKkD5Y&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+[https://www.canva.com/design/DAGxcYKkD5Y/64Op1aNriUem8rRPed0Umg/edit?utm_content=DAGxcYKkD5Y&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton]
+(https://www.canva.com/design/DAGxcYKkD5Y/64Op1aNriUem8rRPed0Umg/edit?utm_content=DAGxcYKkD5Y&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 - Diaporama
   
