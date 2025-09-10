@@ -1193,7 +1193,8 @@ document.querySelector('main > div:last-child button').addEventListener('click',
         });
     </script>
 
-    <script>
+    <div id="axeptio-script-container">
+<script>
     window.axeptioSettings = {
     clientId: "685d0d8bdb52b61dda39b22d",
     cookiesVersion: "christbissai/canva-fr-EU",
@@ -1212,17 +1213,17 @@ document.querySelector('main > div:last-child button').addEventListener('click',
     e.async = true; e.src = "//static.axept.io/sdk.js";
     t.parentNode.insertBefore(e, t);
     })(document, "script");
-    </script>
-    <!-- Button to hide cookies -->
-    <button id="hide-axeptio" style="position:fixed;bottom:20px;left:20px;z-index:9999;">Masquer Axeptio</button>
-    <script>
-    document.t = d.getElementsByTagName(s)[0].onclick = function() {
-    var axeptio = document.getElementById('axeptio_btn') || document.getElementById('axeptio_widget');
-    if (axeptio) {
-        axeptio.style.visibility = 'hidden';
-        axeptio.style.display = 'none';
+</script>
+</div>
+<!-- Button to hide cookies -->
+<button id="hide-axeptio" style="position:fixed;bottom:20px;left:20px;z-index:9999;">Masquer Axeptio</button>
+<script>
+document.getElementById('hide-axeptio').onclick = function() {
+    var axeptioScript = document.getElementById('axeptio-script-container');
+    if (axeptioScript) {
+        axeptioScript.style.display = 'none';
     }
-    };
+};
 </script>
 
 
