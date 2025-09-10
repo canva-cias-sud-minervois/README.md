@@ -1205,15 +1205,24 @@ window.axeptioSettings = {
       ad_personalization: "approved",
       wait_for_update: 500
     }
-  }
-};
- 
-(function(d, s) {
-  var t = d.getElementsByTagName(s)[0], e = d.createElement(s);
-  e.async = true; e.src = "//static.axept.io/sdk.js";
-  t.parentNode.insertBefore(e, t);
-})(document, "script");
-</script>
+      }
+    };
+    </script>
+
+    // Bouton close Axeptio
+    <button id="axeptio_btn_dismiss" style="position:fixed;bottom:80px;left:20px;z-index:9999;">Fermer Axeptio</button>
+    <script>
+    var d = document;
+    var s = 'axeptio_btn';
+    document.getElementById('axeptio_btn_dismiss').onclick = function() {
+    if (typeof d.deleteElement === 'function') {
+        d.deleteElement(s);
+    } else {
+        var el = d.getElementById(s);
+        if (el) el.remove();
+    }
+    };
+    </script>
 
 
 
