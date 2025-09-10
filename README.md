@@ -29,7 +29,7 @@ Ces maquettes ont servi de base pour la réalisation du site, structuré et réd
 
 ---
 
-## 2. Diapositive pédagogique – Bases de Canva
+## 2. Diapositives pédagogiques – Bases de Canva
 
 La diapositive présente les notions essentielles : emplacement des boutons, couleurs, formes, images, et les fonctionnalités de base de Canva. Elle a été conçue manuellement sur Canva.
 
@@ -39,9 +39,13 @@ Lien vers la diapositive :
   
 [https://www.canva.com/design/DAGxcYKkD5Y/64Op1aNriUem8rRPed0Umg/edit?utm_content=DAGxcYKkD5Y&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](https://www.canva.com/design/DAGxcYKkD5Y/64Op1aNriUem8rRPed0Umg/edit?utm_content=DAGxcYKkD5Y&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
+- Diaporama
+  
+[[https://www.canva.com/design/DAGq6PfLhRM/dJ53kLuvW_2MJJY5DckHhQ/edit?utm_content=DAGq6PfLhRM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](https://www.canva.com/design/DAGwhhq9WS4/EAHqmSguED0kLw1EJAOsoQ/edit)](https://www.canva.com/design/DAGwhhq9WS4/EAHqmSguED0kLw1EJAOsoQ/edit)
+
 - Exercices
   
-https://www.canva.com/design/DAGq6PfLhRM/dJ53kLuvW_2MJJY5DckHhQ/edit?utm_content=DAGq6PfLhRM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+[https://www.canva.com/design/DAGq6PfLhRM/dJ53kLuvW_2MJJY5DckHhQ/edit?utm_content=DAGq6PfLhRM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](https://www.canva.com/design/DAGq6PfLhRM/dJ53kLuvW_2MJJY5DckHhQ/edit)
 
 ---
 
