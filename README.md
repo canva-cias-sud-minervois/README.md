@@ -1,4 +1,4 @@
-# Claude AI + Canva
+# CIAS + Canva
 
 ## Site web hébergé – Introduction aux animations Canva
 
