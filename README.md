@@ -41,7 +41,7 @@ Lien vers la diapositive :
 
 - Diaporama
   
-[[https://www.canva.com/design/DAGq6PfLhRM/dJ53kLuvW_2MJJY5DckHhQ/edit?utm_content=DAGq6PfLhRM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](https://www.canva.com/design/DAGwhhq9WS4/EAHqmSguED0kLw1EJAOsoQ/edit)](https://www.canva.com/design/DAGwhhq9WS4/EAHqmSguED0kLw1EJAOsoQ/edit)
+[https://www.canva.com/design/DAGwhhq9WS4/EAHqmSguED0kLw1EJAOsoQ/edit?utm_content=DAGwhhq9WS4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](https://www.canva.com/design/DAGwhhq9WS4/EAHqmSguED0kLw1EJAOsoQ/edit?utm_content=DAGwhhq9WS4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 - Exercices
   
