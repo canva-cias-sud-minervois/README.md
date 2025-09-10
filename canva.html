@@ -35,12 +35,14 @@
     width: 100%;
     
 
-    
+    cursor: grab;
     top: 1px;
     
     background-size:unset;
 
     }
+
+
 
     img.bg {
             width: 10%;
@@ -490,7 +492,7 @@
             
             <!-- Header -->
             <header id="accueil" class=" text-white py-24 px-4 text-center" style="padding-top: 167px; background: linear-gradient(360deg, #ffffff 0%, #fbedff 100%);">
-                <h1 class="bg text-4xl md:text-5xl font-bold mb-24" style="background: linear-gradient(135deg, #00c4cc 0%, #232a65 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">CANVA</h1>
+                <h1 class="bg text-4xl md:text-5xl font-bold mb-24" style="background: linear-gradient(135deg, #00c4cc 0%, #232a65 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent; ">CANVA</h1>
                 <div style="display: flex;align-items: center; justify-content: center;">
             <p class="z-index: 8; text-xl md:text-2xl max-w-3xl mx-auto" style="background: linear-gradient(135deg, #00c4cc 0%, #232a65 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;text-align: center;">10 points essentiels pour maîtriser les animations comme un pro Canva</p>
                 
@@ -502,7 +504,12 @@
 
             
             <!-- Main Content -->
-            <main class="max-w-6xl mx-auto px-4 py-12"  >
+            <main class="max-w-6xl mx-auto px-4 py-12" 
+    style="backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;"  >
                 <!-- Tabs -->
                 <div class="flex flex-wrap justify-center mb-12" >
                     <button class="tab active px-6 py-3 rounded-full font-medium mx-2 mb-2" data-tab="all">Tous les points</button>
@@ -645,8 +652,8 @@
                 </div>
                 
                 <!-- Resources Section -->
-                <div id="ressources" class="mt-20 bg-white rounded-xl p-8 shadow-lg">
-                    <h2 class="text-3xl font-bold mb-6 text-center">Ressources</h2>
+                <div class="mt-20 bg-white rounded-xl p-8 shadow-lg">
+                    <h2 class="text-3xl font-bold mb-6 text-center" >Ressources</h2>
                     <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                         <div class="p-4 border border-purple-200 rounded-lg hover:border-purple-500 transition-all">
                             <h3 class="font-semibold mb-2">Themes gratuits</h3>
@@ -659,7 +666,7 @@
                             <a href="https://www.canva.com/templates/EAEk4rbZ1UA-teal-friendly-professional-general-proposal/" class="text-purple-600 hover:underline">Doc 4 →</a>
                         </div>
 
-                        <div class="p-4 border border-purple-200 rounded-lg hover:border-purple-500 transition-all">
+                        <div class="p-4 border border-purple-200 rounded-lg hover:border-purple-500 transition-all" >
                             <h3 class="font-semibold mb-2">Images</h3>
                             <p class="text-gray-600 mb-3">Téléchargez des modèles de personnages prêts à personnaliser.</p>
                             <a href="https://blush.design/collections/hands" class="text-purple-600 hover:underline">Les mains →</a><br>
@@ -669,7 +676,7 @@
                         </div>
 
                         <div class="p-4 border border-purple-200 rounded-lg hover:border-purple-500 transition-all" style="background-color: #f7eeff;" >
-                            <h3 class="font-semibold mb-2">Mini-Guide IA Canva</h3>
+                            <h3 class="font-semibold mb-2" >Mini-Guide IA Canva</h3>
                             <p class="text-gray-600 mb-3">Découvrez les 3 fonctionnalités essentielles de l'IA Canva pour transformer votre créativité</p>
                             <a href="./canva-ia.html" class="text-purple-600 hover:underline">Voir fonctionnalites →</a>
                         </div>
@@ -677,7 +684,7 @@
                     </div>
                 </div>
                         <!-- Contact Section -->
-                <div id="contact" class="mt-20 bg-white rounded-xl p-8 shadow-lg">
+                <div id="contact" class="">
                     
                 
             <form class="max-w-lg mx-auto" method= "post" >
@@ -694,7 +701,8 @@
                         </div>
             
             </form>
-    <div style="visibility: hidden;">
+            
+    <div style="visibility: hidden;"  >
     <?php
     // Si le formulaire a été soumis
     if (isset($_POST["message"])){
@@ -718,12 +726,13 @@
 </div>
 
                                 <!-- Conclusion -->
-                                <div class="mt-16 text-center">
+                                <div>
+                                    
                                     <h2 class="text-2xl font-bold mb-4">Prêt à créer des animations impressionnantes?</h2>
                                     <p class="text-lg text-gray-700 mb-8 max-w-3xl mx-auto">Suivez ces 10 conseils pour créer des animations professionnelles qui améliorent l'expérience utilisateur sans jamais la perturber.</p>
                                     <button class="canva-gradient text-white font-bold py-3 px-8 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
                                         <a href="https://www.canva.com"> Commencer à animer</a>
-                                    </button>
+                                    </button><div id="ressources"></div>
                                 </div>
 
         </div>
@@ -731,7 +740,7 @@
             </main>
             
             <!-- Footer -->
-            <footer class="bg-gray-800 text-white py-8 px-4 text-center mt-12">
+            <footer class="bg-gray-800 text-white py-8 px-4 text-center mt-12" >
                 <div class="max-w-6xl mx-auto">
                     <div class="flex flex-col md:flex-row justify-between items-center mb-12">
                         <div class="flex items-center mb-4 md:mb-0">
@@ -769,7 +778,7 @@
             const modalData = {
                 1: {
                     title: "Point 1: Évitez les animations excessives",
-                    description: "Les animations excessives peuvent surcharger visuellement votre design et distraire l'utilisateur du contenu principal. Elles peuvent également ralentir le chargement de votre page et affecter les performances. Limitez-vous à 2-3 animations stratégiquement placées pour mettre en valeur les éléments importants. Rappelez-vous que chaque animation doit avoir un objectif précis et apporter une valeur ajoutée à l'expérience utilisateur.",
+                    description: "Les animations excessives peuvent surcharger visuellement votre design et distraire l'utilisateur du contenu principal.<br> Elles peuvent également ralentir le chargement de votre page et affecter les performances.<br><br> Limitez-vous à 2-3 animations stratégiquement placées pour mettre en valeur les éléments importants.<br><br> Rappelez-vous que chaque animation doit avoir un objectif précis et apporter une valeur ajoutée à l'expérience utilisateur.",
                     svg: `<svg viewBox="0 0 500 300" xmlns="http://www.w3.org/2000/svg">
                         <rect x="50" y="50" width="400" height="200" fill="#f0f0f0" rx="10" />
                         <circle cx="150" cy="150" r="50" fill="#7d2ae8" opacity="0.8">
@@ -786,7 +795,7 @@
                 },
                 2: {
                     title: "Point 2: Maîtrisez les transitions",
-                    description: "Le timing est crucial pour des transitions efficaces. Une transition trop rapide peut passer inaperçue, tandis qu'une animation trop lente peut frustrer l'utilisateur et ralentir l'interaction. Pour les transitions d'interface (site web), visez 0.3-0.5 secondes. Pour les animations narratives ou qui attirent l'attention, 1-2 secondes est généralement idéal. Testez toujours vos animations avec différents utilisateurs pour trouver le timing optimal.",
+                    description: "Le timing est crucial pour des transitions efficaces.<br> Une transition trop rapide peut passer inaperçue, tandis qu'une animation trop lente peut frustrer l'utilisateur et ralentir l'interaction.<br><br><b> Pour les transitions d'interface (site web), visez 0.3-0.5 secondes.</b><br><br><b> Pour les animations narratives ou qui attirent l'attention, 1-2 secondes est généralement idéal.</b><br><br> Testez toujours vos animations avec différents utilisateurs pour trouver le timing optimal.",
                     svg: `<svg viewBox="0 0 500 300" xmlns="http://www.w3.org/2000/svg">
                         <rect x="50" y="50" width="400" height="200" fill="#f0f0f0" rx="10" />
                         <line x1="100" y1="200" x2="400" y2="200" stroke="#333" stroke-width="2" />
@@ -801,7 +810,7 @@
                 },
                 3: {
                     title: "Point 3: Attention aux conflits d'animation",
-                    description: "Appliquer plusieurs animations contradictoires au même élément peut créer des comportements imprévisibles et des effets visuels désagréables. Par exemple, ne combinez pas une animation de rotation avec un changement de taille sur le même élément. Si vous devez utiliser plusieurs animations, assurez-vous qu'elles sont complémentaires et qu'elles s'exécutent soit en séquence, soit en harmonie. Testez toujours le résultat final pour vous assurer que les animations ne se perturbent pas mutuellement.",
+                    description: "Appliquer plusieurs animations contradictoires au même élément peut créer des comportements imprévisibles et des effets visuels désagréables.<br><br> Par exemple, ne combinez pas une animation de rotation avec un changement de taille sur le même élément.<br><br> Si vous devez utiliser plusieurs animations, assurez-vous qu'elles sont complémentaires et qu'elles s'exécutent soit en séquence, soit en harmonie.<br><br> Testez toujours le résultat final pour vous assurer que les animations ne se perturbent pas mutuellement.",
                     svg: `<svg viewBox="0 0 500 300" xmlns="http://www.w3.org/2000/svg">
                         <rect x="50" y="50" width="400" height="200" fill="#f0f0f0" rx="10" />
                         <g>
@@ -822,13 +831,13 @@
                     </svg>`
                 },
                 4: {
-                    title: "Point 4: Utilisez les courbes d'accélération",
-                    description: "Cet assistant est là pour accompagner les utilisateurs de Canva dans leurs créations. Il peut Expliquer comment utiliser les fonctionnalités disponibles sur Canva. Donner des conseils pour améliorer les designs, comme choisir les bonnes couleurs ou polices.Guider dans l'édition des designs pour les rendre plus percutants.Aider à naviguer dans l'interface Canva, que ce soit sur la page d'accueil ou dans l'éditeur. Fournir des astuces pour organiser et personnaliser les projets. Répondre aux questions sur les outils gratuits accessibles avec un abonnement Free. Partager des idées pour créer des designs uniques et attrayants. Inspirer et motiver à explorer toutes les possibilités créatives de Canva ! 🎨✨",
+                    title: "Point 4: Utilisez l'IA Magic Canva pour booster votre créativité",
+                    description: "Cet assistant est là pour accompagner les utilisateurs de Canva dans leurs créations.<br><br> Il peut Expliquer comment utiliser les fonctionnalités disponibles sur Canva.<br><br> Donner des conseils pour améliorer les designs, comme choisir les bonnes couleurs ou polices.Guider dans l'édition des designs pour les rendre plus percutants.Aider à naviguer dans l'interface Canva, que ce soit sur la page d'accueil ou dans l'éditeur.<br><br> Fournir des astuces pour organiser et personnaliser les projets.<br><br> Répondre aux questions sur les outils gratuits accessibles avec un abonnement Free.<br><br> Partager des idées pour créer des designs uniques et attrayants.<br><br> Inspirer et motiver à explorer toutes les possibilités créatives de Canva !",
                     svg: `<a ><img src="./img/Image 20-6-25 à 14.26 (1).jpg" alt="Logo" width="550" height="550" style="mix-blend-mode:multiply"></a>`
                 },
                 5: {
                     title: "Point 5: Ne négligez pas l'accessibilité",
-                    description: "Certains utilisateurs peuvent souffrir de troubles vestibulaires, de migraines ou d'autres conditions qui rendent les animations désagréables, voire douloureuses. Respectez la préférence 'prefers-reduced-motion' du système d'exploitation et offrez toujours une option pour réduire ou désactiver complètement les animations. Cela peut être aussi simple qu'un bouton dans les paramètres ou une détection automatique des préférences utilisateur. L'accessibilité n'est pas une option, c'est une nécessité pour un design inclusif.",
+                    description: "Certains utilisateurs peuvent souffrir de troubles vestibulaires, de migraines ou d'autres conditions qui rendent les animations désagréables, voire douloureuses.<br><br> Respectez la préférence 'prefers-reduced-motion' du système d'exploitation et offrez toujours une option pour réduire ou désactiver complètement les animations.<br><br> Cela peut être aussi simple qu'un bouton dans les paramètres ou une détection automatique des préférences utilisateur.<br><br> L'accessibilité n'est pas une option, c'est une nécessité pour un design inclusif.",
                     svg: `<svg viewBox="0 0 500 300" xmlns="http://www.w3.org/2000/svg">
                         <rect x="50" y="50" width="400" height="200" fill="#f0f0f0" rx="10" />
                         <g>
@@ -848,7 +857,7 @@
                 },
                 6: {
                     title: "Point 6: Animations réactives",
-                    description: "Les animations réactives fournissent un retour visuel immédiat aux actions de l'utilisateur, améliorant ainsi l'expérience d'interaction. Utilisez des animations subtiles pour confirmer les clics de bouton, les survols, les sélections ou les soumissions de formulaire. Ces micro-interactions créent une sensation de réactivité et d'engagement. Par exemple, un léger changement d'échelle ou de couleur au survol d'un bouton, ou une animation de chargement pendant le traitement d'une action, aide l'utilisateur à comprendre que son action a été reconnue.",
+                    description: "Les animations réactives fournissent un retour visuel immédiat aux actions de l'utilisateur, améliorant ainsi l'expérience d'interaction.<br><br> Utilisez des animations subtiles pour confirmer les clics de bouton, les survols, les sélections ou les soumissions de formulaire.<br><br> Ces micro-interactions créent une sensation de réactivité et d'engagement.<br><br> Par exemple, un léger changement d'échelle ou de couleur au survol d'un bouton, ou une animation de chargement pendant le traitement d'une action, aide l'utilisateur à comprendre que son action a été reconnue.",
                     svg: `<svg viewBox="0 0 500 300" xmlns="http://www.w3.org/2000/svg">
                         <rect x="50" y="50" width="400" height="200" fill="#f0f0f0" rx="10" />
                         <g>
@@ -865,7 +874,7 @@
                 },
                 7: {
                     title: "Point 7: Évitez les animations qui bloquent",
-                    description: "Les animations qui empêchent l'utilisateur d'interagir avec votre contenu peuvent être extrêmement frustrantes. Ne forcez jamais l'utilisateur à attendre la fin d'une animation avant de pouvoir continuer à naviguer ou à interagir. Les animations d'introduction, les transitions de page ou les effets visuels ne devraient pas bloquer l'interaction. Assurez-vous que les utilisateurs peuvent toujours cliquer, faire défiler ou naviguer pendant que les animations sont en cours. Si une animation doit être bloquante (comme un chargement), assurez-vous qu'elle est aussi courte que possible.",
+                    description: "Les animations qui empêchent l'utilisateur d'interagir avec votre contenu peuvent être extrêmement frustrantes.<br><br> Ne forcez jamais l'utilisateur à attendre la fin d'une animation avant de pouvoir continuer à naviguer ou à interagir.<br><br> Les animations d'introduction, les transitions de page ou les effets visuels ne devraient pas bloquer l'interaction.<br><br> Assurez-vous que les utilisateurs peuvent toujours cliquer, faire défiler ou naviguer pendant que les animations sont en cours.<br><br> Si une animation doit être bloquante (comme un chargement), assurez-vous qu'elle est aussi courte que possible.",
                     svg: `<svg viewBox="0 0 500 300" xmlns="http://www.w3.org/2000/svg">
                         <rect x="50" y="50" width="400" height="200" fill="#f0f0f0" rx="10" />
                         <g>
@@ -891,7 +900,7 @@
                 },
                 8: {
                     title: "Point 8: Animations séquentielles",
-                    description: "Les animations séquentielles créent un effet de cascade en décalant légèrement le début des animations pour plusieurs éléments similaires. Cette technique est particulièrement efficace pour les listes, les menus ou les grilles d'éléments. Au lieu d'animer tous les éléments simultanément, introduisez un léger délai entre chaque élément (généralement 50-100ms). Cela crée un mouvement fluide et dirigé qui guide naturellement l'œil de l'utilisateur et rend l'interface plus dynamique et organisée.",
+                    description: "Les animations séquentielles créent un effet de cascade en décalant légèrement le début des animations pour plusieurs éléments similaires.<br><br> Cette technique est particulièrement efficace pour les listes, les menus ou les grilles d'éléments.<br><br> Au lieu d'animer tous les éléments simultanément, introduisez un léger délai entre chaque élément (généralement 50-100ms).<br><br> Cela crée un mouvement fluide et dirigé qui guide naturellement l'œil de l'utilisateur et rend l'interface plus dynamique et organisée.",
                     svg: `<svg viewBox="0 0 500 300" xmlns="http://www.w3.org/2000/svg">
                         <rect x="50" y="50" width="400" height="200" fill="#f0f0f0" rx="10" />
                         <g>
@@ -912,7 +921,7 @@
                 },
                 9: {
                     title: "Point 9: Attention aux performances",
-                    description: "Les animations complexes ou mal optimisées peuvent considérablement ralentir votre projet en ligne, surtout sur les appareils mobiles ou moins puissants. Évitez d'animer des propriétés comme 'width', 'height', 'margin' ou 'padding' qui déclenchent des recalculs coûteux de la mise en page. Limitez également le nombre d'éléments animés simultanément et testez toujours vos animations sur différents appareils pour vous assurer qu'elles restent fluides.",
+                    description: "Les animations complexes ou mal optimisées peuvent considérablement ralentir votre projet en ligne, surtout sur les appareils mobiles ou moins puissants.<br><br> Évitez d'animer des propriétés comme 'width', 'height', 'margin' ou 'padding' qui déclenchent des recalculs coûteux de la mise en page.<br><br> Limitez également le nombre d'éléments animés simultanément et testez toujours vos animations sur différents appareils pour vous assurer qu'elles restent fluides.",
                     svg: `<svg viewBox="0 0 500 300" xmlns="http://www.w3.org/2000/svg">
                         <rect x="50" y="50" width="400" height="200" fill="#f0f0f0" rx="10" />
                         <g>
@@ -935,7 +944,7 @@
                 },
                 10: {
                     title: "Point 10: Animations avec un objectif",
-                    description: "Chaque animation dans votre design doit avoir un objectif clair et apporter une valeur ajoutée à l'expérience utilisateur. Les animations peuvent servir à guider l'attention vers des éléments importants, à expliquer des relations entre différents contenus, à fournir un retour sur les actions de l'utilisateur, ou à ajouter de la personnalité à votre marque. Avant d'ajouter une animation, demandez-vous toujours : 'Quel est l'objectif de cette animation?' et 'Comment améliore-t-elle l'expérience utilisateur?' Si vous ne pouvez pas répondre clairement à ces questions, l'animation est probablement superflue.",
+                    description: "Chaque animation dans votre design doit avoir un objectif clair et apporter une valeur ajoutée à l'expérience utilisateur.<br><br> Les animations peuvent servir à guider l'attention vers des éléments importants, à expliquer des relations entre différents contenus, à fournir un retour sur les actions de l'utilisateur, ou à ajouter de la personnalité à votre marque.<br><br> Avant d'ajouter une animation, demandez-vous toujours : 'Quel est l'objectif de cette animation?' et 'Comment améliore-t-elle l'expérience utilisateur?' Si vous ne pouvez pas répondre clairement à ces questions, l'animation est probablement superflue.",
                     svg: `<svg viewBox="0 0 500 300" xmlns="http://www.w3.org/2000/svg">
                         <rect x="50" y="50" width="400" height="200" fill="#f0f0f0" rx="10" />
                         <circle cx="250" cy="150" r="80" fill="#f9f9f9" stroke="#ddd" stroke-width="2" />
@@ -1064,7 +1073,7 @@ document.querySelector('main > div:last-child button').addEventListener('click',
                     
                     if (data) {
                         modalTitle.textContent = data.title;
-                        modalDescription.textContent = data.description;
+                        modalDescription.innerHTML = data.description;
                         modalImage.innerHTML = data.svg;
                         modalOverlay.classList.add('active');
                         document.body.style.overflow = 'hidden'; // Prevent scrolling
