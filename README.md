@@ -18,18 +18,7 @@ Ce projet a pour objectif d’apprendre les bases de Canva à des débutants, gr
 
 ---
 
-## 1. Maquettes Canva – Conception du site web
-
-Le site web a été conçu en s’appuyant sur deux maquettes réalisées sur Canva :
-
-- [Maquette n°1](https://www.canva.com/design/DAGqyYBASh8/Be-4ywCYZCQm826DXvsaTA/edit)  
-- [Maquette n°2](https://www.canva.com/design/DAGqySoOmCs/fr4bAFbPxERRLTVDBpd4QQ/edit)
-
-Ces maquettes ont servi de base pour la réalisation du site, structuré et rédigé avec l’aide de Claude AI (Anthropic).
-
----
-
-## 2. Diapositives pédagogiques – Bases de Canva
+## 1. Diapositives pédagogiques – Bases de Canva
 
 La diapositive présente les notions essentielles : emplacement des boutons, couleurs, formes, images, et les fonctionnalités de base de Canva. Elle a été conçue manuellement sur Canva.
 
@@ -46,6 +35,16 @@ Lien vers la diapositive :
 - Exercices
   
 [https://www.canva.com/design/DAGq6PfLhRM/dJ53kLuvW_2MJJY5DckHhQ/edit?utm_content=DAGq6PfLhRM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](https://www.canva.com/design/DAGq6PfLhRM/dJ53kLuvW_2MJJY5DckHhQ/edit)
+
+---
+## 2. Maquettes Canva – Conception du site web
+
+Le site web a été conçu en s’appuyant sur deux maquettes réalisées sur Canva :
+
+- [Maquette n°1](https://www.canva.com/design/DAGqyYBASh8/Be-4ywCYZCQm826DXvsaTA/edit)  
+- [Maquette n°2](https://www.canva.com/design/DAGqySoOmCs/fr4bAFbPxERRLTVDBpd4QQ/edit)
+
+Ces maquettes ont servi de base pour la réalisation du site, structuré et rédigé avec l’aide de Claude AI (Anthropic).
 
 ---
 
