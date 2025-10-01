@@ -9,6 +9,9 @@ Lien du site :
 
 [![Hosted on GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-actif-0e76a8?logo=githubpages&style=flat-square)](https://canva-cias-sud-minervois.github.io/README.md/canva)
 
+App :
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ed514073-6243-4003-a5fc-7b68ab1bbf7c/deploy-status)](https://app.netlify.com/projects/canva-cias-sud-minervois/deploys)
+
 ---
 
 Ce projet a pour objectif d’apprendre les bases de Canva à des débutants, grâce à :
@@ -34,9 +37,10 @@ Lien vers la diapositive :
 
 - Exercices
   
-[https://www.canva.com/design/DAGq6PfLhRM/dJ53kLuvW_2MJJY5DckHhQ/edit?utm_content=DAGq6PfLhRM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](https://www.canva.com/design/DAGq6PfLhRM/dJ53kLuvW_2MJJY5DckHhQ/edit)
+[https://www.canva.com/design/DAGq6PfLhRM/dJ53kLuvW_2MJJY5DckHhQ/edit?utm_content=DAGq6PfLhRM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](https://www.canva.com/design/DAGq6PfLhRM/dJ53kLuvW_2MJJY5DckHhQ/edit?utm_content=DAGq6PfLhRM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ---
+
 ## 2. Maquettes Canva – Conception du site web
 
 Le site web a été conçu en s’appuyant sur deux maquettes réalisées sur Canva :
@@ -79,4 +83,4 @@ Les contenus pédagogiques (textes, images, captures d'écran) sont sous licence
 
 ---
 
-Réalisé en 2025 avec l’appui de Claude.ai disponible sur Canva.
+Réalisé en 2025 avec l’appui de Claude.ai disponible sur Canva.  
