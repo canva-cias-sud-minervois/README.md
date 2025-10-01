@@ -9,7 +9,6 @@ Lien du site :
 
 [![Hosted on GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-actif-0e76a8?logo=githubpages&style=flat-square)](https://canva-cias-sud-minervois.github.io/README.md/canva)
 
-App :
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ed514073-6243-4003-a5fc-7b68ab1bbf7c/deploy-status)](https://app.netlify.com/projects/canva-cias-sud-minervois/deploys)
 
 ---
